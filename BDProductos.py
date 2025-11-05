@@ -9,6 +9,9 @@ try:
     )
     print("Conexión exitosa :)")
 
+
+
+
     consulta = conexion.cursor()
     textoConsulta = "SELECT * FROM productosdelatienda"
     consulta.execute(textoConsulta)
